@@ -1,3 +1,5 @@
+package tests;
+
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.Selenide;
@@ -93,6 +95,7 @@ public class HomeworkLessonTest {
                 text(mobileNumber),
                 text(subject1),
                 text(subject2),
-                text(currentAddress));
+                text(currentAddress)
+        );
     }
 }
